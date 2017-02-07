@@ -12,14 +12,15 @@ and open the template in the editor.
          * contoh: public/css/style.css pada kode HTML akan dibaca sebagai
          * http://localhost/framework/public/css/style.css
          */?>
-        <base href="http://localhost/framework/">
+        <!--<base href="http://localhost/kurniawantaari/Web/">-->
         <title>Kurniawantaari</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link rel="stylesheet"
-          href="resources/css/something.css"/>
+        <link rel="stylesheet" href="resources/css/test.css"/>
+          <!--<script type="text/javascript" src="resources/js/angular.min.js"></script>-->
+          <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>-->
     </head>
-    <body>
+    <body ng-app>
         <header>
             <nav>
                 <div class="nav-wrapper">
@@ -41,7 +42,7 @@ and open the template in the editor.
             </nav>
         </header>
 
-<div class="container">
+<div class="container mymod">
     <?php require($content) ?>
 </div>
     </body>

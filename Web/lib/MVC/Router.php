@@ -9,8 +9,8 @@ class Router {
     private $action;
     private $urlParams;
 
-    private $Controller_Namespace = "\\controllers\\";
-    private $Base_Controller_Name = "lib\\MVC\\Controller\\BaseController";
+    private $Controller_Namespace = "\\Controllers\\";
+    private $Base_Controller_Name = "lib\\MVC\\Controllers\\BaseController";
 
     public function __construct($urlParams) {
         $this->urlParams = $urlParams;

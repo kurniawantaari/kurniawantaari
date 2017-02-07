@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace lib\MVC\Controller;
+namespace lib\MVC\Controllers;
 
 /**
  * Description of BaseController

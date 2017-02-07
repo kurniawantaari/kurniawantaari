@@ -8,7 +8,7 @@
 
         <tbody>
             <tr>
-                <td colspan="2">Kosong</td>
+                <td colspan="2">{{10+2}}</td>
             </tr>
         </tbody>
     </table>

@@ -2,7 +2,7 @@
 
 namespace Controllers;
 
-use lib\MVC\Controller\BaseController;
+use lib\MVC\Controllers\BaseController;
 
 class Home extends BaseController {
     protected function Index() {
