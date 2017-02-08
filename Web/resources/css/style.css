@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2017, 6:26:18 PM
+    Author     : Eko
+*/
+
+.brand-logo{
+    font-variant-caps: small-caps;
+}
+#button-menu{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+nav{
+    background-color: transparent;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+.home-menu{
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    -ms-transform: skew(15deg); /* IE 9 */
+    -webkit-transform: skew(15deg); /* Safari */
+    transform: skew(15deg); /* Standard syntax */
+}
+.home-menu div div{
+    font-variant-caps: small-caps;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 18pt;
+}
+.parent-home-menu{
+    padding-top: 30px;
+    padding-right: 150px;
+
+}
+.home-menu > *{
+    text-align: center;
+    -ms-transform: skew(-15deg); /* IE 9 */
+    -webkit-transform: skew(-15deg); /* Safari */
+    transform: skew(-15deg); /* Standard syntax */
+}
+.btn.btn-small{
+    height: 40px !important;
+    width: 40px !important;
+    padding: 0px;
+}
